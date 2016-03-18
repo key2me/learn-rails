@@ -1,0 +1,164 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'jashkenas/coffeescript' ]
+2 info using npm@2.14.20
+3 info using node@v4.4.0
+4 verbose install initial load of /usr/lib/package.json
+5 verbose readDependencies loading dependencies from /usr/lib/package.json
+6 silly cache add args [ 'jashkenas/coffeescript', null ]
+7 verbose cache add spec jashkenas/coffeescript
+8 silly cache add parsed spec Result {
+8 silly cache add   raw: 'jashkenas/coffeescript',
+8 silly cache add   scope: null,
+8 silly cache add   name: null,
+8 silly cache add   rawSpec: 'jashkenas/coffeescript',
+8 silly cache add   spec: 'github:jashkenas/coffeescript',
+8 silly cache add   type: 'hosted',
+8 silly cache add   hosted:
+8 silly cache add    { type: 'github',
+8 silly cache add      ssh: 'git@github.com:jashkenas/coffeescript.git',
+8 silly cache add      sshUrl: 'git+ssh://git@github.com/jashkenas/coffeescript.git',
+8 silly cache add      httpsUrl: 'git+https://github.com/jashkenas/coffeescript.git',
+8 silly cache add      gitUrl: 'git://github.com/jashkenas/coffeescript.git',
+8 silly cache add      shortcut: 'github:jashkenas/coffeescript',
+8 silly cache add      directUrl: 'https://raw.githubusercontent.com/jashkenas/coffeescript/master/package.json' } }
+9 verbose addRemoteGit caching jashkenas/coffeescript
+10 verbose addRemoteGit jashkenas/coffeescript is a repository hosted by github
+11 silly tryGitProto attempting to clone git://github.com/jashkenas/coffeescript.git
+12 silly tryClone cloning jashkenas/coffeescript via git://github.com/jashkenas/coffeescript.git
+13 verbose tryClone git-github-com-jashkenas-coffeescript-git-5caebf90 not in flight; caching
+14 verbose correctMkdir /home/key/.npm/_git-remotes correctMkdir not in flight; initializing
+15 verbose makeDirectory /home/key/.npm/_git-remotes creation not in flight; initializing
+16 silly makeDirectory /home/key/.npm/_git-remotes uid: 1000 gid: 1000
+17 info git [ 'clone',
+17 info git   '--template=/home/key/.npm/_git-remotes/_templates',
+17 info git   '--mirror',
+17 info git   'git://github.com/jashkenas/coffeescript.git',
+17 info git   '/home/key/.npm/_git-remotes/git-github-com-jashkenas-coffeescript-git-5caebf90' ]
+18 verbose mirrorRemote jashkenas/coffeescript git clone git://github.com/jashkenas/coffeescript.git
+19 verbose correctMkdir /home/key/.npm/_git-remotes correctMkdir not in flight; initializing
+20 verbose setPermissions jashkenas/coffeescript set permissions on /home/key/.npm/_git-remotes/git-github-com-jashkenas-coffeescript-git-5caebf90
+21 verbose resolveHead jashkenas/coffeescript original treeish: master
+22 info git [ 'rev-list', '-n1', 'master' ]
+23 silly resolveHead jashkenas/coffeescript resolved treeish: 88192c197a86759e25e1a0d8a31909b72a96cbc8
+24 verbose resolveHead jashkenas/coffeescript resolved Git URL: git://github.com/jashkenas/coffeescript.git#88192c197a86759e25e1a0d8a31909b72a96cbc8
+25 silly resolveHead Git working directory: /tmp/npm-2816-81d15597/git-cache-a1c085c0c309/88192c197a86759e25e1a0d8a31909b72a96cbc8
+26 info git [ 'clone',
+26 info git   '/home/key/.npm/_git-remotes/git-github-com-jashkenas-coffeescript-git-5caebf90',
+26 info git   '/tmp/npm-2816-81d15597/git-cache-a1c085c0c309/88192c197a86759e25e1a0d8a31909b72a96cbc8' ]
+27 verbose cloneResolved jashkenas/coffeescript clone Cloning into '/tmp/npm-2816-81d15597/git-cache-a1c085c0c309/88192c197a86759e25e1a0d8a31909b72a96cbc8'...
+27 verbose cloneResolved done.
+28 info git [ 'checkout', '88192c197a86759e25e1a0d8a31909b72a96cbc8' ]
+29 verbose checkoutTreeish jashkenas/coffeescript checkout Note: checking out '88192c197a86759e25e1a0d8a31909b72a96cbc8'.
+29 verbose checkoutTreeish
+29 verbose checkoutTreeish You are in 'detached HEAD' state. You can look around, make experimental
+29 verbose checkoutTreeish changes and commit them, and you can discard any commits you make in this
+29 verbose checkoutTreeish state without impacting any branches by performing another checkout.
+29 verbose checkoutTreeish
+29 verbose checkoutTreeish If you want to create a new branch to retain commits you create, you may
+29 verbose checkoutTreeish do so (now or later) by using -b with the checkout command again. Example:
+29 verbose checkoutTreeish
+29 verbose checkoutTreeish   git checkout -b new_branch_name
+29 verbose checkoutTreeish
+29 verbose checkoutTreeish HEAD is now at 88192c1... Merge pull request #4226 from eventualbuddha/patch-1
+30 verbose addLocalDirectory /home/key/.npm/coffee-script/1.10.0/package.tgz not in flight; packing
+31 verbose correctMkdir /home/key/.npm correctMkdir not in flight; initializing
+32 verbose tar pack [ '/home/key/.npm/coffee-script/1.10.0/package.tgz',
+32 verbose tar pack   '/tmp/npm-2816-81d15597/git-cache-a1c085c0c309/88192c197a86759e25e1a0d8a31909b72a96cbc8' ]
+33 verbose tarball /home/key/.npm/coffee-script/1.10.0/package.tgz
+34 verbose folder /tmp/npm-2816-81d15597/git-cache-a1c085c0c309/88192c197a86759e25e1a0d8a31909b72a96cbc8
+35 verbose addLocalTarball adding from inside cache /home/key/.npm/coffee-script/1.10.0/package.tgz
+36 verbose correctMkdir /home/key/.npm correctMkdir not in flight; initializing
+37 verbose addRemoteGit data._from: jashkenas/coffeescript
+38 verbose addRemoteGit data._resolved: git://github.com/jashkenas/coffeescript.git#88192c197a86759e25e1a0d8a31909b72a96cbc8
+39 silly cache afterAdd coffee-script@1.10.0
+40 verbose afterAdd /home/key/.npm/coffee-script/1.10.0/package/package.json not in flight; writing
+41 verbose correctMkdir /home/key/.npm correctMkdir not in flight; initializing
+42 verbose afterAdd /home/key/.npm/coffee-script/1.10.0/package/package.json written
+43 silly install resolved [ { name: 'coffee-script',
+43 silly install resolved     description: 'Unfancy JavaScript',
+43 silly install resolved     keywords: [ 'javascript', 'language', 'coffeescript', 'compiler' ],
+43 silly install resolved     author: { name: 'Jeremy Ashkenas' },
+43 silly install resolved     version: '1.10.0',
+43 silly install resolved     license: 'MIT',
+43 silly install resolved     engines: { node: '>=0.8.0' },
+43 silly install resolved     directories: { lib: './lib/coffee-script' },
+43 silly install resolved     main: './lib/coffee-script/coffee-script',
+43 silly install resolved     bin: { coffee: './bin/coffee', cake: './bin/cake' },
+43 silly install resolved     preferGlobal: true,
+43 silly install resolved     scripts:
+43 silly install resolved      { test: 'node ./bin/cake test',
+43 silly install resolved        'test-harmony': 'node --harmony ./bin/cake test' },
+43 silly install resolved     homepage: 'http://coffeescript.org',
+43 silly install resolved     bugs: { url: 'https://github.com/jashkenas/coffeescript/issues' },
+43 silly install resolved     repository:
+43 silly install resolved      { type: 'git',
+43 silly install resolved        url: 'git://github.com/jashkenas/coffeescript.git' },
+43 silly install resolved     devDependencies:
+43 silly install resolved      { 'uglify-js': '~2.2',
+43 silly install resolved        jison: '>=0.2.0',
+43 silly install resolved        'highlight.js': '~8.0.0',
+43 silly install resolved        underscore: '~1.5.2',
+43 silly install resolved        docco: '~0.7.0' },
+43 silly install resolved     gitHead: '88192c197a86759e25e1a0d8a31909b72a96cbc8',
+43 silly install resolved     readme: '            {\n         }   }   {\n        {   {  }  }\n         }   }{  {\n        {  }{  }  }                    _____       __  __\n       { }{ }{  { }                   / ____|     / _|/ _|\n     .- { { }  { }} -.               | |     ___ | |_| |_ ___  ___\n    (  { } { } { } }  )              | |    / _ \\|  _|  _/ _ \\/ _ \\\n    |`-..________ ..-\'|              | |___| (_) | | | ||  __/  __/\n    |                 |               \\_____\\___/|_| |_| \\___|\\___|\n    |                 ;--.\n    |                (__  \\            _____           _       _\n    |                 | )  )          / ____|         (_)     | |\n    |                 |/  /          | (___   ___ _ __ _ _ __ | |_\n    |                 (  /            \\___ \\ / __| \'__| | \'_ \\| __|\n    |                 |/              ____) | (__| |  | | |_) | |_\n    |                 |              |_____/ \\___|_|  |_| .__/ \\__|\n     `-.._________..-\'                                  | |\n                                                        |_|\n\nCoffeeScript is a little language that compiles into JavaScript.\n\n## Installation\n\nIf you have the node package manager, npm, installed:\n\n```shell\nnpm install -g coffee-script\n```\n\nLeave off the `-g` if you don\'t wish to install globally. If you don\'t wish to use npm:\n\n```shell\ngit clone https://github.com/jashkenas/coffeescript.git\nsudo coffeescript/bin/cake install\n```\n\n## Getting Started\n\nExecute a script:\n\n```shell\ncoffee /path/to/script.coffee\n```\n\nCompile a script:\n\n```shell\ncoffee -c /path/to/script.coffee\n```\n\nFor documentation, usage, and examples, see: http://coffeescript.org/\n\nTo suggest a feature or report a bug: http://github.com/jashkenas/coffeescript/issues\n\nIf you\'d like to chat, drop by #coffeescript on Freenode IRC.\n\nThe source repository: https://github.com/jashkenas/coffeescript.git\n\nChangelog: http://coffeescript.org/#changelog\n\nOur lovely and talented contributors are listed here: http://github.com/jashkenas/coffeescript/contributors\n',
+43 silly install resolved     readmeFilename: 'README.md',
+43 silly install resolved     _id: 'coffee-script@1.10.0',
+43 silly install resolved     _shasum: '2e585ae0e75f4a4b4d4d7302449c7e3d988f6f87',
+43 silly install resolved     _from: 'jashkenas/coffeescript',
+43 silly install resolved     _resolved: 'git://github.com/jashkenas/coffeescript.git#88192c197a86759e25e1a0d8a31909b72a96cbc8' } ]
+44 info install coffee-script@1.10.0 into /usr/lib
+45 info installOne coffee-script@1.10.0
+46 verbose installOne of coffee-script to /usr/lib not in flight; installing
+47 verbose correctMkdir /home/key/.npm/_locks correctMkdir not in flight; initializing
+48 verbose lock using /home/key/.npm/_locks/coffee-script-f1142e4d2069858a.lock for /usr/lib/node_modules/coffee-script
+49 silly install write writing coffee-script 1.10.0 to /usr/lib/node_modules/coffee-script
+50 verbose unbuild lib/node_modules/coffee-script
+51 silly gentlyRm /usr/lib/node_modules/coffee-script is being purged from base /usr
+52 verbose gentlyRm don't care about contents; nuking /usr/lib/node_modules/coffee-script
+53 verbose tar unpack /home/key/.npm/coffee-script/1.10.0/package.tgz
+54 verbose tar unpacking to /usr/lib/node_modules/coffee-script
+55 silly gentlyRm /usr/lib/node_modules/coffee-script is being purged
+56 verbose gentlyRm don't care about contents; nuking /usr/lib/node_modules/coffee-script
+57 silly gunzTarPerm modes [ '775', '664' ]
+58 error tar.unpack untar error /home/key/.npm/coffee-script/1.10.0/package.tgz
+59 verbose unlock done using /home/key/.npm/_locks/coffee-script-f1142e4d2069858a.lock for /usr/lib/node_modules/coffee-script
+60 verbose fstream_path /usr/lib/node_modules/coffee-script
+61 verbose fstream_type Directory
+62 verbose fstream_class DirWriter
+63 verbose stack Error: EACCES: permission denied, mkdir '/usr/lib/node_modules/coffee-script'
+63 verbose stack     at Error (native)
+64 verbose fstream_stack /usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:35:25
+64 verbose fstream_stack /usr/lib/node_modules/npm/node_modules/mkdirp/index.js:47:53
+64 verbose fstream_stack FSReqWrap.oncomplete (fs.js:82:15)
+65 verbose cwd /home/key/workstation/roar/learn-rails
+66 error Linux 3.13.0-83-generic
+67 error argv "/usr/bin/nodejs" "/usr/bin/npm" "install" "-g" "jashkenas/coffeescript"
+68 error node v4.4.0
+69 error npm  v2.14.20
+70 error path /usr/lib/node_modules/coffee-script
+71 error code EACCES
+72 error errno -13
+73 error syscall mkdir
+74 error Error: EACCES: permission denied, mkdir '/usr/lib/node_modules/coffee-script'
+74 error     at Error (native)
+74 error  { [Error: EACCES: permission denied, mkdir '/usr/lib/node_modules/coffee-script']
+74 error   errno: -13,
+74 error   code: 'EACCES',
+74 error   syscall: 'mkdir',
+74 error   path: '/usr/lib/node_modules/coffee-script',
+74 error   fstream_type: 'Directory',
+74 error   fstream_path: '/usr/lib/node_modules/coffee-script',
+74 error   fstream_class: 'DirWriter',
+74 error   fstream_stack:
+74 error    [ '/usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:35:25',
+74 error      '/usr/lib/node_modules/npm/node_modules/mkdirp/index.js:47:53',
+74 error      'FSReqWrap.oncomplete (fs.js:82:15)' ] }
+75 error Please try running this command again as root/Administrator.
+76 verbose exit [ -13, true ]
+77 verbose unbuild lib/node_modules/coffee-script
+78 silly gentlyRm /usr/lib/node_modules/coffee-script is being purged from base /usr
+79 verbose gentlyRm don't care about contents; nuking /usr/lib/node_modules/coffee-script

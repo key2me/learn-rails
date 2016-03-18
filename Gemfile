@@ -46,12 +46,13 @@ group :development do
 end
 
 # learn-rails
-gem 'foundation-rails'
+gem 'foundation-rails', '~> 5.5'
 gem 'gibbon'
 gem 'high_voltage'
 gem 'simple_form'
+
 group :development do
-gem 'better_errors'
-gem 'quiet_assets'
-gem 'rails_layout'
+  gem 'better_errors'
+  gem 'quiet_assets'
+  gem 'rails_layout'
 end
