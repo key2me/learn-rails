@@ -17,6 +17,7 @@
   @extend .columns;
   }
 @mixin six-columns-centered {
+  @extend .small-6 !optional;
   @extend .small-6;
   @extend .columns;
   @extend .text-center;
